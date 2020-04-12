@@ -4,6 +4,6 @@ function testFunc() {
   return "hi"
 }
 
-function superBowlWin(record){
+function superbowlWin(record){
   record.find(game => game.result === "W").year
 }
