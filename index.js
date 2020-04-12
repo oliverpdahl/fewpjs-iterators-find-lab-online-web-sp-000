@@ -5,5 +5,5 @@ function testFunc() {
 }
 
 function superBowlWin(record){
-  record.find()
+  record.find(game => game.result === "W").year
 }
