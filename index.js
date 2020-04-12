@@ -4,4 +4,6 @@ function testFunc() {
   return "hi"
 }
 
-function superBowlWin()
+function superBowlWin(record){
+  record.find()
+}
